@@ -1,0 +1,26 @@
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+html, body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body {
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: serif;
+}
+#smiley {
+  font-size: 18em;
+}
+@media only screen and (max-width: 424px) {
+  #smiley {
+   font-size: 12em;
+  }
+}
